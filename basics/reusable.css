@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@tailwind base;
+@tailwiind components;
+@tailwind utilities;
+
+/*reusable classes*/
+
+.card {
+    @apply bg-white rounded overflow-hidden shadow-md relative;
+}
+
+.btn {
+    @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider;
+}
